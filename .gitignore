@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[oc]
+*.egg-info
+build/
+dist/
+wheels/
+.venv/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Secrets, sessions, and local state
+.env
+*.session
+*.session-journal
+state/
+logs/
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+allowlist.json
+*.log
+
+# macOS
+.DS_Store
